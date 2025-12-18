@@ -54,8 +54,8 @@ private:
     static inline std::mutex coutMutex;
     
     
-    static constexpr int MOVEMENT_THREADS = 4;
-    static constexpr int BATTLE_THREADS = 2;
+    static constexpr int MOVEMENT_THREADS = 1;
+    static constexpr int BATTLE_THREADS = 1;
     
     
     std::atomic<int> nextNPCId;
